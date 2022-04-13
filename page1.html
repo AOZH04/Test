@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Tabs</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220414001123">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper page1">
+		<header data-scroll="70" data-scroll-show="500" class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item animated bounce" animated bounce data-tippy-content="На главную" data-da=".show,768,1"><a href="index.html" class="menu__link">HOME</a></li>
+							<li class="menu__item animated bounceInLeft" data-tippy-content="На не главную"><a href="page1.html" class="menu__link">Tabs</a></li>
+							<li class="menu__item animated bounceInUp" data-tippy-content="Показать Popup"><a href="#" data-popup="#popup1" class="link">ПОПАП 1</a></li>
+							<li class="menu__item animated bounceInDown" data-tippy-content="Формы в Popup"><a href="#" data-popup="#popup2" class="link">Forms</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="show"></div>
+		</header>
+		<main class="page1">
+			<div class="page1__container">
+				<div class="tabs_block">
+					<div data-tabs="0" class="tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="button" class="tabs__title">
+								<div class="icon">
+									<svg class="headericon">
+										<use xlink:href="img/icons/icons.svg#svg-headericon1"></use>
+									</svg>
+								</div>
+							</button>
+							<button type="button" class="tabs__title">
+								<div class="icon">
+									<svg class="headericon">
+										<use xlink:href="img/icons/icons.svg#svg-YouTube-Negative"></use>
+									</svg>
+								</div>
+							</button>
+							<button type="button" class="tabs__title">
+								<div class="icon">
+									<svg class="headericon">
+										<use xlink:href="img/icons/icons.svg#svg-Facebook-Negative"></use>
+									</svg>
+								</div>
+							</button>
+							<button type="button" class="tabs__title">
+								<div class="icon">
+									<svg class="headericon">
+										<use xlink:href="img/icons/icons.svg#svg-Github-Negative"></use>
+									</svg>
+								</div>
+							</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								<div class="body__item">
+									<div data-showmore="items" data-showmore-media="768,max" class="block">
+										<div data-showmore-content="1" class="block__content">
+											<li>111111111111</li>
+											<li>222222222222</li>
+											<li>333333333333</li>
+											<li>444444444444</li>
+										</div>
+										<button hidden data-showmore-button="500" type="button" class="block__more"><span>см.еще</span><span>скрыть</span></button>
+									</div>
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae necessitatibus distinctio dolores incidunt rem corrupti error nesciunt obcaecati perferendis corporis, illum impedit quibusdam quod numquam, velit id veniam et sunt.
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="body__item">
+									<details class="details">
+										<summary>Показать</summary>
+										<li>111111111111</li>
+										<li>222222222222</li>
+										<li>333333333333</li>
+										<li>444444444444</li>
+									</details>
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita beatae vero culpa in, rem, nesciunt harum minima ad facere at nulla odit veritatis, voluptatum cupiditate cumque optio tenetur sit corrupti.
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="body__item">
+									3 Lorem, ipsum dolor.
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="body__item">
+									4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, iste saepe voluptatum dolore ea repudiandae id ullam architecto quam at!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text">
+					<div class="blocks">
+						<div data-da=".blocks_2,900,0" class="block1">
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating">
+										<input type="radio" class="rating__item" value="2" name="rating">
+										<input type="radio" class="rating__item" value="3" name="rating">
+										<input type="radio" class="rating__item" value="4" name="rating">
+										<input type="radio" class="rating__item" value="5" name="rating">
+									</div>
+								</div>
+								<div class="rating__value">1</div>
+							</div>
+						</div>
+						<div data-da=".blocks_2,900,1" class="block2">
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating">
+										<input type="radio" class="rating__item" value="2" name="rating">
+										<input type="radio" class="rating__item" value="3" name="rating">
+										<input type="radio" class="rating__item" value="4" name="rating">
+										<input type="radio" class="rating__item" value="5" name="rating">
+									</div>
+								</div>
+								<div class="rating__value">2</div>
+							</div>
+						</div>
+						<div data-da=".blocks_2,900,2" class="block3">
+							<div class="rating rating_set">
+								<div class="rating__body">
+									<div class="rating__active"></div>
+									<div class="rating__items">
+										<input type="radio" class="rating__item" value="1" name="rating">
+										<input type="radio" class="rating__item" value="2" name="rating">
+										<input type="radio" class="rating__item" value="3" name="rating">
+										<input type="radio" class="rating__item" value="4" name="rating">
+										<input type="radio" class="rating__item" value="5" name="rating">
+									</div>
+								</div>
+								<div class="rating__value">3</div>
+							</div>
+						</div>
+					</div>
+					<div data-da=".blocks,900,0" class="blocks_2">
+						<div class="block4">
+
+						</div>
+						<div class="block5">
+
+						</div>
+						<div class="block6">
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text__container">
+				<a href="#" data-goto-header data-goto=".footer" class="link">Прокрутить к FOOTER</a> <br>
+				<div class="testspollers">
+					<div data-spollers data-one-spoller data-spollers-speed="0" class="spollers">
+						<div class="spollers__item">
+							<button class="spollers__title" type="button" data-spoller data-spoller-close>
+								<div class="iconssp">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-Facebook-Negative"></use>
+									</svg>
+								</div>
+							</button>
+							<div class="spollers__body">
+								1 Контент спойлера Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit neque facilis atque placeat praesentium maiores assumenda ipsam aliquid dolorum, deleniti nemo amet laudantium vero earum, iure repellendus illum! Voluptatem, exercitationem
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller data-spoller-close class="spollers__title">
+								<div class="iconssp">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-Instagram-Negative"></use>
+									</svg>
+								</div>
+							</button>
+							<div class="spollers__body">2 Контент спойлера Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi earum, consectetur ea quisquam itaque architecto, vero inventore optio, voluptatum explicabo possimus? Itaque odio non facere, aliquid unde dolore fugit eos?</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller data-spoller-close class="spollers__title">
+								<div class="iconssp">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-Apple-Negative"></use>
+									</svg>
+								</div>
+							</button>
+							<div class="spollers__body">3 Контент спойлера Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi earum, consectetur ea quisquam itaque architecto, vero inventore optio, voluptatum explicabo possimus? Itaque odio non facere, aliquid unde dolore fugit eos?</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller data-spoller-close class="spollers__title">
+								<div class="iconssp">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-Signal-Negative"></use>
+									</svg>
+								</div>
+							</button>
+							<div class="spollers__body">4 Контент спойлера Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi earum, consectetur ea quisquam itaque architecto, vero inventore optio, voluptatum explicabo possimus? Itaque odio non facere, aliquid unde dolore fugit eos?</div>
+						</div>
+					</div>
+				</div>
+				<div class="test2swiper">
+					<!-- Оболочка слайдера -->
+					<div class="test2ss__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="test2ss__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="test2ss__slide swiper-slide">
+								Слайд1
+							</div>
+							<div class="test2ss__slide swiper-slide">
+								Слайд2
+							</div>
+							<div class="test2ss__slide swiper-slide">
+								Слайд3
+							</div>
+							<div class="test2ss__slide swiper-slide">
+								Слайд4
+							</div>
+							<div class="test2ss__slide swiper-slide">
+								Слайд5
+							</div>
+							<div class="test2ss__slide swiper-slide">
+								Слайд6
+							</div>
+						</div>
+						<!-- Если нужна пагинация -->
+						<div class="swiper-pagination"></div>
+						<!-- Если нужна навигация (влево/вправо) -->
+						<!-- <button type="button" class="swiper-button-prev"></button>
+						<button type="button" class="swiper-button-next"></button> -->
+						<!-- Если нужен скролбар -->
+						<div class="swiper-scrollbar"></div>
+					</div>
+				</div>
+				<div class="testswiper">
+					<!-- Оболочка слайдера -->
+					<div class="testss__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="testss__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="testss__slide swiper-slide">
+								Слайд1
+							</div>
+							<div class="testss__slide swiper-slide">
+								Слайд2
+							</div>
+							<div class="testss__slide swiper-slide">
+								Слайд3
+							</div>
+							<div class="testss__slide swiper-slide">
+								Слайд4
+							</div>
+							<div class="testss__slide swiper-slide">
+								Слайд5
+							</div>
+							<div class="testss__slide swiper-slide">
+								Слайд6
+							</div>
+						</div>
+						<!-- Если нужна пагинация -->
+						<div class="swiper-pagination"></div>
+						<!-- Если нужна навигация (влево/вправо) -->
+						<button type="button" class="swiper-button-prev"></button>
+						<button type="button" class="swiper-button-next"></button>
+						<!-- Если нужен скролбар -->
+						<div class="swiper-scrollbar"></div>
+					</div>
+				</div>
+				<div class="testgallery" data-gallery>
+					<a href="img/1.jpg" class="gallery__image">
+						<picture><source srcset="img/1min.webp" type="image/webp"><img alt="Описание к картинке" src="img/1min.jpg" class="gallery__preview"></picture>
+					</a>
+					<a href="img/2.jpg" class="gallery__image">
+						<picture><source srcset="img/2min.webp" type="image/webp"><img alt="Описание к картинке" src="img/2min.jpg" class="gallery__preview"></picture>
+					</a>
+					<a href="img/3.jpg" class="gallery__image">
+						<picture><source srcset="img/3min.webp" type="image/webp"><img alt="Описание к картинке" src="img/3min.jpg" class="gallery__preview"></picture>
+					</a>
+				</div>
+				<div class="watchers">
+					<div class="testwatcher" data-watch data-watch-margin="-5%">
+						<a target="blank" href="https://www.google.com/">
+							<picture><source srcset="img/layer-7.webp" type="image/webp"><img src="img/layer-7.png" alt=""></picture></a>
+					</div>
+					<div class="lor" data-watch data-watch-margin="-5%">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint vero consectetur excepturi sunt, nostrum eum placeat! Cumque praesentium, deserunt, aperiam perferendis aut ex delectus debitis, soluta vitae in doloremque numquam. Lorem ipsum dolor sit amet consectetur, adipt
+					</div>
+				</div>
+				<br><br><br>
+			</div>
+		</main>
+		<footer class="footer">
+
+			<div class="footer__container">
+				<a target="blank" href="https://www.google.com/">Ссылка на Google</a>
+				Footer <br>
+				<a href="#" data-goto-speed="1000" data-goto=".wrapper" class="link footerlink">Прокрутить к Header</a>
+			</div>
+
+		</footer>
+	</div>
+
+	<div id="popup1" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__text">
+					ПОПАП 1! <br>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius ut minus maiores, debitis assumenda cum inventore explicabo animi repudiandae aperiam, illum quaerat architecto, quo neque voluptatibus omnis aliquam odit possimus doloremque quae libero tenetur! Cumque fugiat voluptas architecto obcaecati nobis impedit eum unde, enim ipsam illum iste reprehenderit ad expedita esse et ipsum quam sit modi, iure recusandae, sunt nesciunt asperiores officia ipsa? Laboriosam quas quod a libero, laborum, cupiditate dignissimos ducimus modi magni officiis dolore fugit excepturi at sequi porro eos non harum, voluptas quaerat error accusantium perspiciatis tenetur eligendi ad. Praesentium debitis dolorum cupiditate excepturi, animi dignissimos eius, ut necessitatibus iste, quisquam minima neque suscipit quasi illum totam atque accusamus cumque possimus quas. Facilis optio dolorum repudiandae deleniti odit natus tempora error illo dicta delectus nostrum impedit, ratione similique sint quo fuga laudantium iste quisquam alias! Amet minima alias consequuntur corrupti saepe perferendis dolorum blanditiis deleniti esse deserunt magnam, eius accusamus a impedit ut voluptate et quisquam, cupiditate nobis. Impedit error ex a, suscipit quasi nostrum earum atque vel reiciendis dolores? Porro accusantium labore officiis culpa modi. Fugit assumenda voluptas odio fuga obcaecati nesciunt consectetur illum repellat, odit aliquam. Sunt aspernatur rerum doloremque, repellendus ex ut ea id ad nam reiciendis voluptatem, ab necessitatibus eligendi, magni molestias beatae tempora. Dicta ducimus, sunt assumenda unde explicabo rem modi, exercitationem nostrum cumque maxime dolore vero, consequuntur autem voluptatem omnis sed eveniet excepturi veniam doloremque at similique ex natus accusamus repudiandae. Dolorem recusandae iste minima vitae illum, quasi suscipit veritatis blanditiis doloribus ullam et animi excepturi ducimus nostrum corporis aperiam iusto sapiente assumenda ipsum? Nulla deleniti adipisci veritatis. Beatae accusamus nesciunt eaque deserunt enim dicta nulla quibusdam libero, assumenda fugiat alias. Quidem consequatur quas tempore itaque libero fugit nulla obcaecati quia corrupti cumque placeat ullam ad soluta, corporis ut, magnam natus?
+				</div>
+			</div>
+			<button data-close type="button" class="popup__close"></button>
+		</div>
+	</div>
+	<div id="popup2" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__form">
+					<form data-dev class="form" data-popup-message="#popup4">
+						<div class="form__line">
+							<input data-required="email" placeholder="email" data-error="Введите email" data-validate autocomplete="off" type="text" name="form[]" value="">
+							<div class="name"></div>
+						</div>
+						<div class="form__line">
+							<input autocomplete="off" placeholder="password" type="password" name="form[]" value="">
+							<button class="form__viewpass" type="button">show</button>
+						</div>
+						<button data-goto="._form-error" type="submit" class="button">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<button data-close type="button" class="popup__close"></button>
+		</div>
+	</div>
+	<div id="popup3" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__text popimg">
+					<picture><source srcset="img/layer-7.webp" type="image/webp"><img src="img/layer-7.png" alt=""></picture>
+				</div>
+			</div>
+			<button data-close type="button" class="popup__close"></button>
+		</div>
+	</div>
+	<div id="popup4" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__text">
+					Форма отправлена
+				</div>
+			</div>
+			<button data-close type="button" class="popup__close"></button>
+		</div>
+	</div>
+
+
+	<script src="js/app.min.js?_v=20220414001123"></script>
+</body>
+
+</html>
